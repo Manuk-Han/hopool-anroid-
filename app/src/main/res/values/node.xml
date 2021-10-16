@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="node">
+        <item>아산캠</item>
+        <item>배방자이</item>
+        <item>아산역</item>
+        <item>천안역</item>
+        <item>터미널</item>
+        <item>천안캠</item>
+    </string-array>
+</resources>

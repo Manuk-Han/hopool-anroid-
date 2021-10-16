@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9ACAF1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_x="106dp"
+        android:layout_y="101dp"
+        android:text="회원가입"
+        android:textSize="60dp" />
+
+    <EditText
+        android:id="@+id/make_name"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_x="113dp"
+        android:layout_y="315dp"
+        android:background="@drawable/text2"
+        android:backgroundTint="@color/white"
+        android:textColorHint="#808080"
+        android:text=""
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_x="33dp"
+        android:layout_y="315dp"
+        android:background="@drawable/text1"
+        android:backgroundTint="@color/white"
+        android:textColorHint="#808080"
+        android:text="    이름  |"
+        android:gravity="fill_vertical"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/make_phone"
+        android:layout_width="235dp"
+        android:layout_height="50dp"
+        android:layout_x="148dp"
+        android:layout_y="380dp"
+        android:background="@drawable/text2"
+        android:backgroundTint="@color/white"
+        android:textColorHint="#808080"
+        android:text=""
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_x="33dp"
+        android:layout_y="380dp"
+        android:background="@drawable/text1"
+        android:backgroundTint="@color/white"
+        android:textColorHint="#808080"
+        android:text="    전화번호  |"
+        android:gravity="fill_vertical"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/make_pw"
+        android:layout_width="235dp"
+        android:layout_height="50dp"
+        android:layout_x="148dp"
+        android:layout_y="445dp"
+        android:background="@drawable/text2"
+        android:backgroundTint="@color/white"
+        android:textColorHint="#808080"
+        android:password="true"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_x="33dp"
+        android:layout_y="445dp"
+        android:background="@drawable/text1"
+        android:backgroundTint="@color/white"
+        android:textColorHint="#808080"
+        android:text="    비밀번호  |"
+        android:gravity="fill_vertical"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/make_ok"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_x="131dp"
+        android:layout_y="548dp"
+        android:background="@drawable/btn_s"
+        android:backgroundTint="#405EF8"
+        android:text="가입하기"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        app:backgroundTint="@android:color/holo_blue_dark" />
+</AbsoluteLayout>

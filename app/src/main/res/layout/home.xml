@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCEFEB">
+
+
+    <Button
+        android:id="@+id/btn_host"
+        android:layout_width="160dp"
+        android:layout_height="85dp"
+        android:layout_x="26dp"
+        android:layout_y="120dp"
+        android:background="@drawable/btn_s"
+        android:text="host"
+        android:textSize="40dp"
+        app:backgroundTint="#80DEEA" />
+
+    <Button
+        android:id="@+id/btn_user"
+        android:layout_width="160dp"
+        android:layout_height="85dp"
+        android:layout_x="224dp"
+        android:layout_y="120dp"
+        android:background="@drawable/btn_s"
+        android:text="user"
+        android:textSize="40dp"
+        app:backgroundTint="#80DEEA" />
+
+    <Button
+        android:id="@+id/btn_crew"
+        android:layout_width="360dp"
+        android:layout_height="85dp"
+        android:layout_x="26dp"
+        android:layout_y="240dp"
+        android:background="@drawable/btn_s"
+        android:text="crew"
+        android:textSize="40dp"
+        app:backgroundTint="#80DEEA" />
+
+</AbsoluteLayout>

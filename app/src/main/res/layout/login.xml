@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9ACAF1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_x="158dp"
+        android:layout_y="104dp"
+        android:text="호풀"
+        android:textSize="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="127dp"
+        android:layout_y="184dp"
+        android:text="Hoseo car pool app"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/login_id"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_x="33dp"
+        android:layout_y="371dp"
+        android:background="@drawable/t_login"
+        android:drawableLeft="@drawable/empty"
+        android:backgroundTint="@color/white"
+        android:textColorHint="#808080"
+        android:hint="id"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:id="@+id/login_pw"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_x="33dp"
+        android:layout_y="437dp"
+        android:background="@drawable/t_login"
+        android:drawableLeft="@drawable/empty"
+        android:backgroundTint="@color/white"
+        android:textColorHint="#808080"
+        android:hint="pw"
+        android:password="true"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/login_make"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_x="185dp"
+        android:layout_y="600dp"
+        android:text="회원가입" />
+
+    <TextView
+        android:id="@+id/login_find"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_x="309dp"
+        android:layout_y="496dp"
+        android:text="ID/PW 찾기" />
+
+    <Button
+        android:id="@+id/login_ok"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_x="131dp"
+        android:layout_y="548dp"
+        android:background="@drawable/btn_s"
+        android:backgroundTint="#405EF8"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        app:backgroundTint="@android:color/holo_blue_dark" />
+</AbsoluteLayout>

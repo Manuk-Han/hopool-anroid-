@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9ACAF1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_x="127dp"
+        android:layout_y="101dp"
+        android:text="HOST"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/host_start"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_x="33dp"
+        android:layout_y="280dp"
+        android:background="@drawable/t_login"
+        android:drawableLeft="@drawable/empty"
+        android:backgroundTint="@color/white"
+        android:textColorHint="#808080"
+        android:text="방향  |         아산  ⇨  천안"
+        android:gravity="fill_vertical"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/s_change"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_x="325dp"
+        android:layout_y="285dp"
+        android:background="@drawable/pm"
+        android:backgroundTint="#9ACAF1"
+        android:text="⇔"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_x="33dp"
+        android:layout_y="345dp"
+        android:background="@drawable/t_login"
+        android:backgroundTint="@color/white"
+        android:textColorHint="#808080"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="53dp"
+        android:layout_y="355dp"
+        android:text="\n경로"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/node0"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_x="105dp"
+        android:layout_y="353dp"
+        android:background="@drawable/btn_f"
+        android:textColor="@color/white"
+        android:text="아산캠"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/node1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_x="185dp"
+        android:layout_y="353dp"
+        android:background="@drawable/btn_f"
+        android:text="배방자이"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/node2"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_x="290dp"
+        android:layout_y="353dp"
+        android:background="@drawable/btn_f"
+        android:text="아산역"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/node3"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_x="105dp"
+        android:layout_y="397dp"
+        android:background="@drawable/btn_f"
+        android:text="천안역"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/node4"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_x="185dp"
+        android:layout_y="397dp"
+        android:background="@drawable/btn_f"
+        android:text="터미널"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/node5"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_x="265dp"
+        android:layout_y="397dp"
+        android:background="@drawable/btn_f"
+        android:text="천안캠"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/host_stime"
+        android:layout_width="235dp"
+        android:layout_height="50dp"
+        android:layout_x="148dp"
+        android:layout_y="460dp"
+        android:background="@drawable/text2"
+        android:backgroundTint="@color/white"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="#808080" />
+
+    <TextView
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_x="33dp"
+        android:layout_y="460dp"
+        android:background="@drawable/text1"
+        android:backgroundTint="@color/white"
+        android:textColorHint="#808080"
+        android:text="    출발시간  |"
+        android:gravity="fill_vertical"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/make_ok"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_x="131dp"
+        android:layout_y="548dp"
+        android:background="@drawable/btn_s"
+        android:backgroundTint="#405EF8"
+        android:text="등록"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        app:backgroundTint="@android:color/holo_blue_dark" />
+
+
+</AbsoluteLayout>
